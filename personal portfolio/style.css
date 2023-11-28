@@ -1,0 +1,92 @@
+main 
+{
+    min-height: 100vh;
+    background: linear-gradient(to right top, rgb(8, 14, 95), #6cdbeb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass{
+    background: white;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.923),
+        rgba(255, 255, 255, 0.3)
+      );
+      border-radius: 1rem;
+      z-index: 3;
+      backdrop-filter: blur(1rem);
+      display: flex;
+      margin: 0;
+      padding: 0;
+}
+
+.circle1,.circle2{
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.923),
+        rgba(255, 255, 255, 0.2)
+    );
+    height: 20rem;
+    width: 20rem;
+position: absolute;
+border-radius: 10rem;
+z-index: 1;
+
+}
+
+.circle1{
+    right: 10%;
+    top: 5%;
+}
+
+.circle2{
+    bottom:5%;
+    left: 10%
+}
+
+.circle3{
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.923),
+        rgba(255, 255, 255, 0.2)
+    );
+    height: 5rem;
+    width: 5rem;
+position: absolute;
+border-radius: 10rem;
+z-index: 1;
+bottom:45%;
+left: 4%
+}
+
+.circle4{
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.923),
+        rgba(255, 255, 255, 0.2)
+    );
+    height: 2rem;
+    width: 2rem;
+position: absolute;
+border-radius: 10rem;
+z-index: 1;
+bottom:35%;
+right: 6%
+}
+
+.photo{
+   border-radius: 100%;
+   scale: .17;
+   position: absolute;
+   right: 53.5%;
+   bottom: 33.5%;
+   
+
+}
